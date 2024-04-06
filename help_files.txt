@@ -1,0 +1,136 @@
+The Recipe Builder (TRB)
+
+-------------------------------------------------------------------------------------------
+Intent: To have a helping hand in collecting, editing and developing a file of personal recipes.  The recipe GUI is
+organized by sections or panels.  There are five: Header (includes the recipe title and useful notes), Summary
+(includes the basics of the recipe), Ingredients (includes the ingredients), Nutrients (includes the breakdown of the
+nutrition facts, if available) and Instructions (includes the step-wise directions). You can create a new recipe from
+scratch.  You can also import recipes from multiple recipe sites online. These recipes will be saved in your "Recipes"
+folder, and you can then open them and manipulate them as you desire.
+NOTE: replace button with menu item.
+
+The items that grey out when you hover over them are editable by either clicking, click-move or double-clicking on them.
+Those fields are completely editable. The text fields behave like text fields. A single left click selects the field. A
+double left click selects the text and a triple left click selects all the text in that field. Information can then be
+added or deleted. The information is then updated if you hit the Enter key or press the UPDATE button.  The ingredients
+should be ordered by when they are introduced to the recipe and the instructions are in order of first step to last.
+The nutrients are arranged by how they are presented on the website and can be altered in the form. Please be aware that
+you cannot ADD or DELETE the fields from the Header panel and when in the Header panel, the ADD and REMOVE buttons are
+disabled. The Header panel contains the recipe title and the notes.
+A field up or down the list by left-clicking the mouse on the label or text field. Move the mouse while holding the left
+mouse button down, you will see a 'double-arrow' to signal that you can drag the field up or down and then release the
+left mouse button to drop the field into its new resting place. See EDIT below for more information.
+
+Capabilities:
+
+    Moving around the window: All fields are available by clicking into them.  You can make changes in a field and press
+    the Enter key to update the field or press the update button. You can press the Ctrl + Tab key to move from one
+    field to the next within each panel and to move to the next panel. Don't forget to hit the 'Enter' after adding new
+    information as this will update the formatting, numbering and styling. When any button is 'grayed' out when you
+    click on a panel, it means that the button is not functional for that panel.
+
+    EDITING: When you want to edit a label in any of the panels, move the cursor over the label or the title and
+    click-release the left button on the mouse (or the touchpad) for the CHANGE LABEL NAME dialog to appear. Enter the
+    new name and press the submit button. You should see the new name show up. When you want to edit the value, left
+    click in the text box and make any changes and press the Enter key when you are done. This should update the fields.
+    The labels for the Ingredients list and the Instructions list are created for you so you cannot change them.
+    You can change the order of the items in the lists by holding down the left mouse button while the cursor is over
+    the item that you want to move. While holding the button down, move the item up or down the list and then release it
+    where you want the item to be placed. When you get to the item level then release the button. You will see a
+    'up-down-arrow' icon while you are moving the values.
+    In the header panel where you can make 'chef notes', you can add a new line by pressing the <Return> key. This way
+    you can format this area to your liking. The formatting is saved with the file.
+    One important point. When you want to select part of a word in the text box, you cannot left-click and drag the
+    cursor because the program will think that you want to move the field. Instead, you will need to click at one end of
+    the text that you want to select and then shift+left-click to select that part of the word.
+    When entering text into the Header, Ingredients and Instructions panels text boxes, you should be able to format the
+    text as either a capital or lowercase letter. Make sure that you save the file to preserve this formatting.
+    In the Summary panel, the category label is a special_text using the title case for any text box entries.
+    Be sure to hit the Enter key or press the UPDATE button once you are done.
+    If you enter something and then change your mind, you can UNDO changes by pressing CTRL+z. This is purported to be
+    unlimited, but I'm hopeful that you will let me know if you find this is not so. I have found that if you type a
+    change in a text box, the undo and redo will work as long as you have not updated the change. An updated change
+    cannot be undone, apparently. But you can select it and change it to your liking. Redo is 'Ctrl+Shift+z'.
+    If you want to change the name of your recipe, all you need to do is double click on the title of the recipe and
+    enter the new recipe name. Once finished, click submit and save. The recipe folder will be updated with the new
+    recipe name when you save it.
+
+    NEW: The NEW button will check if the currently opened recipe has any changes and ask if you want to save them
+    and then clear the screen and bring up an empty template. From here you can design your next greatest recipe of all
+    time. Instead of pressing the NEW button, you can use the key combination: 'Ctrl+n' (Mac 'CMD+n').
+
+    OPEN: Pressing this button brings up a filedialog asking you to select the recipe that you want to open.  I'm still
+    working on the 'double click' option for this, so for now you have to select the recipe from the list and then click
+    the Select Folder button and if the files are there, you will shortly see the recipe.  The program will let you know
+    if any of the files are absent, and the program will show the parts of the recipe that it could find.  You can
+    continue to edit the recipe, add the sections that are missing and then save it for later. Instead of pressing the
+    OPEN button, you can use the key combination: 'Ctrl+o' (Mac 'CMD+o').
+
+    ADD: There are two ways to do this. First, select the panel that you want to edit so that the blue border is lit.
+    Then press Ctrl+a and the ADD dialog for the panel selected will appear for you to enter the data for the new label
+    and value. Second, just press the ADD button. If you do not click on a panel before pressing 'CTRL+a' or ADD button,
+    a dialog will appear asking for the name of the panel that you want to edit followed by the appropriate panel dialog
+    will appear for you to enter the data as above. If you click in the panel that you want to ADD a label/value, then a
+    dialog will appear asking for the label name and the value information. You cannot add or delete new fields in the
+    Header panel. When editing the Header panel, the ADD and DELETE buttons will be disabled. 'Ctrl+a' (Mac 'CMD+a').
+
+    REMOVE: This allows you to remove a label/value pair from the selected panel, other than the Header.  You will be
+    asked to click on the field that you want to remove, if not done.  The remaining values will be reorganized.
+    Instead of pressing the DELETE button, you can use the key combination: Ctrl+d. This works like with the ADD button
+    only the item will be deleted. If there are no values in the panel, then DELETE will be disabled. 'Ctrl+r'
+    (Mac 'CMD+r')
+
+    UPDATE: Pressing this button will update all changes that you have made to the recipe.  It does not save the changes
+    to the file.  You will be reminded to SAVE the recipe file, if you haven't done it already saved it, when you press
+    the NEW, OPEN or QUIT buttons. You will then be asked if you want to save your changes or not.  Pressing "YES" will
+    save the files.  Pressing "NO" will continue without saving the files and continue to your next desired action.
+    'Ctrl+u' (Mac 'CMD+u')
+
+    SAVE: The program will look for the directory of the current recipe to be saved.  If it does not find one, you will
+    be prompted to enter the name for the recipe.  You can name your recipe anything you want, but it is recommended
+    that you use a name that will let you find it again.  So instead of recipe1 or recipe_1, perhaps try 'My Delicious
+    French Onion Soup'.  Not only will you find it easier, but it might also motivate you to create it. Instead of
+    pressing the SAVE button, you can use the key combination: Ctrl+s. If the save dialog does not come up, then there
+    is nothing that needs to be saved. You can press the UPDATE button and then press the SAVE button and the save
+    dialog should appear. Name your recipe by changing "Untitled Recipe" to your chosen recipe name. You will
+    not be able to save a recipe until you name it with a name that is not duplicated. 'Ctrl+s' (Mac 'CMD+s')
+
+    IMPORT: Recipes can be imported from many different sites. However, some will fail. To try to import a recipe, copy
+    the url of the recipe webpage and paste it into the dialog box when requested.  The recipe will be scanned (scraped)
+    and then saved locally for you to then open in the RB program. Instead of pressing the IMPORT button, you can use
+    the key combination: Ctrl+i. If you want a recipe from the site, you can send me (mwcole1954@gmail.com) a copy of
+    the url for me to investigate, or you can copy and paste it into a blank recipe template or both if you don't want
+    to wait. Not all imports will work. This is dependent on the structure of the web page. When the import is
+    successful, the recipe will be opened in the application. If there is another recipe opened, it will be checked to
+    make sure that it has been saved before opening the imported recipe. I have found that when I know that I am
+    importing a brand new recipe and the import message states that the recipe file exists, that means that there were
+    errors in reading the file. Many times, this could be due to entering an URL that is not directed to the actual
+    recipe page. You can save the file but there probably won't be much useful information presented. You can always
+    delete the file when you are done with it. 'Ctrl+i' (Mac 'CMD+i')
+    Current recipe sites that 'mostly' work: allrecipes.com, eatingwell.com, cookingprofessionally.com,
+    simplyrecipes.com, epicurious.com, delish.com, bonappetit.com, foodnetwork.com, pinchofyum.com, southernliving.com.
+    These are the ones that I have tried so far. Let me know what other recipe sites work for you.
+
+    SEARCH: The search allows you to search your recipes folder for foods that you have tagged.  The dialog box will
+    present two radio buttons: Category and Ingredients. Category is the default and is already chosen for you. You
+    can change this by clicking on the Ingredients radio button. In the next field, you can enter any number of criteria
+    for the Category or Ingredients. Use the values that you have entered previously for Category; such as dinner,
+    lunch, easy, hard, side, etc. You can enter any tags that you want and they can be seperated by spaces or commas.
+    The searches are 'OR' based. The Category search will just list the matches. The Ingredients search will list the
+    matches ordered by the the number of matches for each recipe. You can then select from the list and open that
+    recipe. 'Ctrl+Alt+s' (Mac 'CMD+Alt+s')
+
+    PRINT: Printing is rather primitive at the moment.  Upon pressing the PRINT button, the current recipe will be
+    formatted for printing, a .txt file will be created and stored in the recipes' folder, and then you will see
+    the preview.  On windows, this is done using the Notepad app.  The recipe that you want to print will need to be
+    open in the application. If there is no recipe open, then you will be asked to open the recipe that you want to
+    print. 'Ctrl+p' (Mac 'CMD+p')
+
+    DELETE: You can delete any recipe in your database. A dialog opens and you select the recipe folder name that you
+    want to delete and click the Select button. A message will report that the deed has been done. You can delete a
+    recipe even though you have the recipe open in your application. You will be prompted to save the current recipe.
+    Press 'Yes' if you do, 'No' if you don't. 'Ctrl+t' (Mac 'CMD+t')
+
+    QUIT:  This should be self-explanatory, but I decided to add it for completeness.  There is nothing like a little
+    ZEN in our lives from time to time. 'Ctrl+q' (Mac 'CMD+q')
+

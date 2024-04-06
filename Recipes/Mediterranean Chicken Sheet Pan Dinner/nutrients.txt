@@ -1,0 +1,10 @@
+Calories; 533 kcal
+Carbohydrate; 41 g
+Cholesterol; 85 mg
+Fiber; 7 g
+Protein; 23 g
+Sodium; 1113 mg
+Sugar; 4 g
+Fat; 32 g
+Saturated Fat; 8 g
+Unsaturated Fat; 0 g
