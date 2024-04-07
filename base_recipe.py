@@ -3,6 +3,7 @@ import pathlib
 import tkinter
 
 from abc import ABC, abstractmethod
+from drag_drop import DragDrop
 
 import global_vars
 import header
@@ -12,7 +13,7 @@ from data import Data
 from yes_no_dialog import show_yes_no
 
 
-class BaseRecipe(ABC):
+class BaseRecipe(DragDrop, ABC):
     """This is a base class that maintains much of the functionality of the panels
     but allows more centralization of code. It is inherited by all the panel classes.
     """
