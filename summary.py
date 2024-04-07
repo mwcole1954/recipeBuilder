@@ -1,9 +1,9 @@
 import math
 import tkinter
 
+from drag_drop import DragDrop
 from scrolled_frame_alt import ScrolledFrame
 from base_recipe import BaseRecipe
-from drag_drop import DragDrop
 
 
 class Summary(tkinter.LabelFrame, BaseRecipe, DragDrop):
